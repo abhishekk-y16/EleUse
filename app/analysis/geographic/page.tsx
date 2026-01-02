@@ -100,7 +100,7 @@ export default function GeographicDataPage() {
             console.warn("Failed to fetch Weather for current location", e)
           }
         },
-        (err) => console.warn("Geolocation error", err),
+        (err) => console.warn("Geolocation Error", err),
       )
     }
 
