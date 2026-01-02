@@ -9,6 +9,11 @@ function Tabs({
   className,
   ...props
 }: React.ComponentProps<typeof TabsPrimitive.Root>) {
+  const [mounted, setMounted] = React.useState(false)
+  React.useEffect(() => setMounted(true), [])
+
+  if (!mounted) return null
+
   return (
     <TabsPrimitive.Root
       data-slot="tabs"

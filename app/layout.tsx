@@ -10,7 +10,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "EleUse - Weather-Augmented Electricity Demand Analysis",
   description:
-    "Professional system for analyzing weather-electricity correlations, thermal sensitivity, and demand forecasting using statistical modeling and machine learning",
+    "Professional System for analyzing Weather-electricity correlations, thermal sensitivity, and demand forecasting using statistical modeling and machine learning",
   icons: {
     icon: [
       {
@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     ],
     apple: "/apple-icon.png",
   },
+  viewport: 'width=device-width, initial-scale=1',
     generator: 'v0.app'
 }
 
