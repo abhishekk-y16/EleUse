@@ -97,7 +97,7 @@ export default function GeographicDataPage() {
               setRegionsData((prev) => [currentRegion, ...prev.filter((r) => r.id !== "current")])
             }
           } catch (e) {
-            console.warn("Failed to fetch weather for current location", e)
+            console.warn("Failed to fetch Weather for current location", e)
           }
         },
         (err) => console.warn("Geolocation error", err),
