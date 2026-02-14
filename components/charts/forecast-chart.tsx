@@ -14,7 +14,7 @@ interface ForecastChartProps {
 
 export function ForecastChart({ data }: ForecastChartProps) {
   if (!data || data.length === 0) {
-    return <div className="h-96 flex items-center justify-center text-muted-foreground">Loading forecast data...</div>
+    return <div className="h-96 flex items-center justify-center text-muted-foreground">Loading forecast data..</div>
   }
 
   return (
