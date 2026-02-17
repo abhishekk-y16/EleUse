@@ -46,7 +46,7 @@ export function InteractiveMap({ regions, center }: { regions: Region[]; center?
           onClick={() => setLayer("satellite")}
           className={`px-3 py-1 rounded ${layer === "satellite" ? "bg-sidebar-primary text-sidebar-primary-foreground" : "bg-muted hover:bg-muted/80"}`}
         >
-          Satellite
+          Satellite Mode
         </button>
       </div>
 
