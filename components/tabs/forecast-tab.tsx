@@ -152,7 +152,7 @@ export function ForecastTab() {
                 <div>
                   <p className="font-medium text-sm">Energy Efficiency Audit</p>
                   <p className="text-xs text-muted-foreground mt-1">
-                    Current thermal elasticity indicates significant cooling demand. Review AC maintenance.
+                    Current thermal elasticity indicates significant cooling demand.  Review AC maintenance.
                   </p>
                 </div>
               </div>
