@@ -45,7 +45,7 @@ export function SeasonalTab() {
     <div className="space-y-4">
       <Card>
         <CardHeader>
-          <CardTitle>Heating & Cooling Degree Days</CardTitle>
+          <CardTitle> Heating & Cooling Degree Days</CardTitle>
           <CardDescription>
             Cumulative degree-day data (base temperature 18.3°C) showing seasonal thermal load distribution
           </CardDescription>
