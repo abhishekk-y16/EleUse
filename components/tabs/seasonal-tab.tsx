@@ -55,7 +55,7 @@ export function SeasonalTab() {
         </CardContent>
       </Card>
 
-      {/* compute next 24-hour HDD/CDD and show in summary */}
+      {/* compute  next 24-hour HDD/CDD and show in summary */}
       <Card>
         <CardHeader>
           <CardTitle>Real-time Degree Day Summary (next 24h)</CardTitle>
